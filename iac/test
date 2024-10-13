@@ -1,0 +1,29 @@
+curl 'https://mega-admin.onemedtest.com/api/institutions' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhZG1pbl93ZWIiLCJleHAiOm51bGwsImlhdCI6MTY0OTY3NDY1NywiaXNzIjoiYWRtaW5fd2ViIiwianRpIjoiY2QyOTNlODktYmJjMC00NzBmLWI2ZGMtYmQyNjMxZmU0YjVhIiwibmJmIjoxNjQ5Njc0NjU2LCJzdWIiOiJjbGllbnQ6ZW1yIiwidHlwIjoiYXBpIn0.2tWb65kqSxkbAMQpFRqnkob_SzJt5qzvlt5UcK_l9I61ky3rX9PC2SeUnwRib5akXZ3mVIeEsfKqoowMy3aY5Q' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: _admin_web_key=SFMyNTY.g3QAAAABbQAAABZndWFyZGlhbl9kZWZhdWx0X3Rva2VubQAAAX5leUpoYkdjaU9pSklVelV4TWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKaGRXUWlPaUpoWkcxcGJsOTNaV0lpTENKbGVIQWlPakUzTWprd056YzVORGtzSW1saGRDSTZNVGN5TmpZMU9EYzBPU3dpYVhOeklqb2lZV1J0YVc1ZmQyVmlJaXdpYW5ScElqb2laRGxqTm1Rd09XVXRNbUpoWWkwME9HTXhMV0U0WlRJdE0yWXdaalE0TURJek9HUTJJaXdpYm1KbUlqb3hOekkyTmpVNE56UTRMQ0p6ZFdJaU9pSmxaREZrTlRZM1pTMWpNMlJrTFRRelpEa3RZalprWkMxa1pEQTNNV1l6T0Rnell6UWlMQ0owZVhBaU9pSmhZMk5sYzNNaWZRLkNTWENWYmNPem1hVTdQSnpCREVGaDFtREhaVWVLdlkxV0dIa1RBYkdmNXMzMWpNV0p1dUJ3WmhOblF0d1JIZTdNTWlHY3BNVUdaY01Ock1IdHZ0dUlB.0f09QMJz_UYtjSlWeTEfpczkMQVY6aLI2B0IpfaVBtY' \
+  -H 'origin: https://admin.onemedtest.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://admin.onemedtest.com/' \
+  -H 'sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Brave";v="128"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
+  --data-raw '{"name":"heliumweb-pr-919","subdomain":"heliumweb-pr-919","email":"","type":"hospital","credits":2,"credit_price":2,"pool_size":2,"on_premise":false,"infinity_credits":false,"fortress_enabled":false,"televisits_enabled":false,"carbon_enabled":false,"patient_renewal_credits":0.5,"merchant_id":"0","flw_pubkey":"","flw_seckey":"","account_number":"","bank_name":"","bank_code":"","country":"Nigeria","state":"Lagos","lga":"","ward":"","address":"Lagos, Nigeria","coordinates":"6.52437930, 3.37920570","address_longitude":"6.52437930","address_latitude":"3.37920570","institution_level":"Primary","lead_channels":["MSD FOR M(om)"],"institution_ownership":"Private","institution_sector":"Private","credit_currency":"NGN"}'
+
+
+
+curl 'https://mega-admin.onemedtest.com/api/institutions' \
+  -H 'accept: application/json' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhZG1pbl93ZWIiLCJleHAiOm51bGwsImlhdCI6MTY0OTY3NDY1NywiaXNzIjoiYWRtaW5fd2ViIiwianRpIjoiY2QyOTNlODktYmJjMC00NzBmLWI2ZGMtYmQyNjMxZmU0YjVhIiwibmJmIjoxNjQ5Njc0NjU2LCJzdWIiOiJjbGllbnQ6ZW1yIiwidHlwIjoiYXBpIn0.2tWb65kqSxkbAMQpFRqnkob_SzJt5qzvlt5UcK_l9I61ky3rX9PC2SeUnwRib5akXZ3mVIeEsfKqoowMy3aY5Q' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: _admin_web_key=SFMyNTY.g3QAAAABbQAAABZndWFyZGlhbl9kZWZhdWx0X3Rva2VubQAAAX5leUpoYkdjaU9pSklVelV4TWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKaGRXUWlPaUpoWkcxcGJsOTNaV0lpTENKbGVIQWlPakUzTWprd056YzVORGtzSW1saGRDSTZNVGN5TmpZMU9EYzBPU3dpYVhOeklqb2lZV1J0YVc1ZmQyVmlJaXdpYW5ScElqb2laRGxqTm1Rd09XVXRNbUpoWWkwME9HTXhMV0U0WlRJdE0yWXdaalE0TURJek9HUTJJaXdpYm1KbUlqb3hOekkyTmpVNE56UTRMQ0p6ZFdJaU9pSmxaREZrTlRZM1pTMWpNMlJrTFRRelpEa3RZalprWkMxa1pEQTNNV1l6T0Rnell6UWlMQ0owZVhBaU9pSmhZMk5sYzNNaWZRLkNTWENWYmNPem1hVTdQSnpCREVGaDFtREhaVWVLdlkxV0dIa1RBYkdmNXMzMWpNV0p1dUJ3WmhOblF0d1JIZTdNTWlHY3BNVUdaY01Ock1IdHZ0dUlB.0f09QMJz_UYtjSlWeTEfpczkMQVY6aLI2B0IpfaVBtY' \
+  -H 'origin: https://admin.onemedtest.com' \
+  -H 'referer: https://admin.onemedtest.com/' \
+  --data-raw '{"name":"heliumweb-pr-201","subdomain":"heliumweb-pr-201","email":"","type":"hospital","credits":2,"credit_price":2,"pool_size":2,"on_premise":false,"infinity_credits":false,"fortress_enabled":false,"televisits_enabled":false,"carbon_enabled":false,"patient_renewal_credits":0.5,"merchant_id":"0","flw_pubkey":"","flw_seckey":"","account_number":"","bank_name":"","bank_code":"","country":"Nigeria","state":"Lagos","lga":"","ward":"","address":"Lagos, Nigeria","coordinates":"6.52437930, 3.37920570","address_longitude":"6.52437930","address_latitude":"3.37920570","institution_level":"Primary","lead_channels":["MSD FOR M(om)"],"institution_ownership":"Private","institution_sector":"Private","credit_currency":"NGN"}'

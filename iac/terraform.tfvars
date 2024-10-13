@@ -1,0 +1,7 @@
+rgname          = "RAJ-AKS-RG"
+location        = "northeurope"
+subscription_id = "2085aebb-b343-4886-b1b2-e9f17a9a56f7"
+appId           = "f485896a-6482-4804-9f57-108e45e78f97"
+password        = "bSt8Q~pQvDVy3w9v_qvEF~HulD7r~oEt3qrIJdfb"
+clustername     = "RAJ-AZcluster"
+public_lb       = "kubernetes-ab7fd22f104f54775a3fb1e0103ce93b"
